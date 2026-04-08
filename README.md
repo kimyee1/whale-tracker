@@ -10,7 +10,7 @@ Currently, two official plugins are available now:
 
 ## React Compiler
 
-The React Compiler is enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The React Compiler is  not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
 ## Expanding the ESLint configuration
 
