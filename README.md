@@ -1,5 +1,5 @@
 # React + Vite
-React and Vite combine to create a lightning-fast
+React and Vite combine to create a lightning-fast development
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
