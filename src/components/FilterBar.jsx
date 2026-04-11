@@ -3,7 +3,7 @@
 // e.g. clicking "USDC" shows only USDC whale trades
 
 // These are the filter options we show as buttons
-const TOKENS = ["all", "USDC", "WETH", "cbETH", "BRETT", "DAI", "BNB", "BTC", "CHIP", "XRP", "SENT"]
+const TOKENS = ["all", "USDC", "WETH", "cbETH", "BRETT", "DAI", "BNB", "BTC", "CHIP", "XRP"]
 
 export default function FilterBar({ activeToken, onSelect }) {
   return (
