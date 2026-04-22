@@ -25,7 +25,7 @@ export default function WhaleTable({ trades }) {
           <tr>
             <th className="px-4 py-3 text-left">Size</th>
             <th className="px-4 py-3 text-left">Wallet</th>
-            <th className="px-4 py-3 text-left">Token</th>
+            <th className="px-4 py-3 text-left">Coin</th>
             <th className="px-4 py-3 text-left">Amount (USD)</th>
             <th className="px-4 py-3 text-left">Time</th>
             <th className="px-4 py-3 text-left">View</th>
