@@ -23,7 +23,7 @@ export default function WhaleTable({ trades }) {
         {/* Table header row */}
         <thead className="bg-gray-900 text-gray-400 text-xs uppercase tracking-wider">
           <tr>
-            <th className="px-4 py-3 text-left">Weight</th>
+            <th className="px-4 py-3 text-left">Size</th>
             <th className="px-4 py-3 text-left">Address</th>
             <th className="px-4 py-3 text-left">Token</th>
             <th className="px-4 py-3 text-left">Amount (USD)</th>
