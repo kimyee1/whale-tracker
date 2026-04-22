@@ -10,7 +10,7 @@ export default function WhaleTable({ trades }) {
       <div className="text-center py-16 text-gray-500">
         <div className="text-5xl mb-3">??</div>
         <p>No whale buys found right now.</p>
-        <p className="text-sm mt-1">The ocean is calm — check back soon!</p>
+        <p className="text-sm mt-1">The ocean is calm â€” check back soon!</p>
       </div>
     )
   }
@@ -23,7 +23,7 @@ export default function WhaleTable({ trades }) {
         {/* Table header row */}
         <thead className="bg-gray-900 text-gray-400 text-xs uppercase tracking-wider">
           <tr>
-            <th className="px-4 py-3 text-left">Size</th>
+            <th className="px-4 py-3 text-left">Weight</th>
             <th className="px-4 py-3 text-left">Wallet</th>
             <th className="px-4 py-3 text-left">Token</th>
             <th className="px-4 py-3 text-left">Amount (USD)</th>
@@ -32,10 +32,10 @@ export default function WhaleTable({ trades }) {
           </tr>
         </thead>
 
-        {/* Table body — one row per whale trade */}
+        {/* Table body â€” one row per whale trade */}
         <tbody>
           {trades.map((trade, index) => (
-            // Each row gets a unique "key" — React needs this to track rows
+            // Each row gets a unique "key" â€” React needs this to track rows
             <tr
               key={index}
               className="border-t border-gray-800 hover:bg-gray-900 transition-colors"
@@ -57,7 +57,7 @@ export default function WhaleTable({ trades }) {
                 </span>
               </td>
 
-              {/* USD value — color changes based on size */}
+              {/* USD value â€” color changes based on size */}
               <td className="px-4 py-3 font-mono font-bold">
                 <span className={getAmountColor(trade.usdValue)}>
                   {formatUSD(trade.usdValue)}
@@ -93,7 +93,7 @@ export default function WhaleTable({ trades }) {
 
 // Returns a whale emoji based on how big the trade is
 function getWhaleEmoji(usdValue) {
-  if (usdValue >= 500000) return "??" // Huge trade — full whale!
+  if (usdValue >= 500000) return "??" // Huge trade â€” full whale!
   if (usdValue >= 100000) return "??" // Big trade
   return "??"                          // Medium trade
 }
