@@ -3,6 +3,10 @@ React and Vite combine to create a lightning-fast development experience with ho
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+npm create vite@latest my-app
+cd my-app
+npm install
+
 Currently, two official plugins are available now:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
