@@ -6,7 +6,7 @@ This template provides a minimal setup to get React working in Vite with HMR and
 How to run it
 
 npm create vite@latest my-app
-cd my-app
+
 
 
 Currently, two official plugins are available now:
