@@ -7,7 +7,7 @@ How to run it
 
 npm create vite@latest my-app
 cd my-app
-npm install
+
 
 Currently, two official plugins are available now:
 
