@@ -81,6 +81,6 @@ function formatTime(timestamp) {
 }
 
 function estimateUSD(token, amount) {
-  const prices = { WETH: 3500, ETH: 3500, cbETH: 3600, USDC: 1, USDT: 1, DAI: 1 }
+  const prices = { WETH: 350, ETH: 3500, cbETH: 3600, USDC: 1, USDT: 1, DAI: 1 }
   return amount * (prices[token] || 0)
 }
